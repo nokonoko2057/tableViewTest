@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F971401C15A58A008854BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9713F1C15A58A008854BB /* AppDelegate.swift */; };
+		61F971421C15A58A008854BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F971411C15A58A008854BB /* ViewController.swift */; };
+		61F971451C15A58A008854BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F971431C15A58A008854BB /* Main.storyboard */; };
+		61F971471C15A58A008854BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F971461C15A58A008854BB /* Assets.xcassets */; };
+		61F9714A1C15A58A008854BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F971481C15A58A008854BB /* LaunchScreen.storyboard */; };
+		61F971551C15A58A008854BB /* tebleViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F971541C15A58A008854BB /* tebleViewTestTests.swift */; };
+		61F971601C15A58A008854BB /* tebleViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9715F1C15A58A008854BB /* tebleViewTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F971511C15A58A008854BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F971341C15A58A008854BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F9713B1C15A58A008854BB;
+			remoteInfo = tebleViewTest;
+		};
+		61F9715C1C15A58A008854BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F971341C15A58A008854BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F9713B1C15A58A008854BB;
+			remoteInfo = tebleViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F9713C1C15A58A008854BB /* tebleViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tebleViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F9713F1C15A58A008854BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61F971411C15A58A008854BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61F971441C15A58A008854BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61F971461C15A58A008854BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F971491C15A58A008854BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61F9714B1C15A58A008854BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F971501C15A58A008854BB /* tebleViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tebleViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F971541C15A58A008854BB /* tebleViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tebleViewTestTests.swift; sourceTree = "<group>"; };
+		61F971561C15A58A008854BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F9715B1C15A58A008854BB /* tebleViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tebleViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F9715F1C15A58A008854BB /* tebleViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tebleViewTestUITests.swift; sourceTree = "<group>"; };
+		61F971611C15A58A008854BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F971391C15A58A008854BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F9714D1C15A58A008854BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F971581C15A58A008854BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F971331C15A58A008854BB = {
+			isa = PBXGroup;
+			children = (
+				61F9713E1C15A58A008854BB /* tebleViewTest */,
+				61F971531C15A58A008854BB /* tebleViewTestTests */,
+				61F9715E1C15A58A008854BB /* tebleViewTestUITests */,
+				61F9713D1C15A58A008854BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F9713D1C15A58A008854BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F9713C1C15A58A008854BB /* tebleViewTest.app */,
+				61F971501C15A58A008854BB /* tebleViewTestTests.xctest */,
+				61F9715B1C15A58A008854BB /* tebleViewTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F9713E1C15A58A008854BB /* tebleViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				61F9713F1C15A58A008854BB /* AppDelegate.swift */,
+				61F971411C15A58A008854BB /* ViewController.swift */,
+				61F971431C15A58A008854BB /* Main.storyboard */,
+				61F971461C15A58A008854BB /* Assets.xcassets */,
+				61F971481C15A58A008854BB /* LaunchScreen.storyboard */,
+				61F9714B1C15A58A008854BB /* Info.plist */,
+			);
+			path = tebleViewTest;
+			sourceTree = "<group>";
+		};
+		61F971531C15A58A008854BB /* tebleViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F971541C15A58A008854BB /* tebleViewTestTests.swift */,
+				61F971561C15A58A008854BB /* Info.plist */,
+			);
+			path = tebleViewTestTests;
+			sourceTree = "<group>";
+		};
+		61F9715E1C15A58A008854BB /* tebleViewTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F9715F1C15A58A008854BB /* tebleViewTestUITests.swift */,
+				61F971611C15A58A008854BB /* Info.plist */,
+			);
+			path = tebleViewTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F9713B1C15A58A008854BB /* tebleViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F971641C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTest" */;
+			buildPhases = (
+				61F971381C15A58A008854BB /* Sources */,
+				61F971391C15A58A008854BB /* Frameworks */,
+				61F9713A1C15A58A008854BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tebleViewTest;
+			productName = tebleViewTest;
+			productReference = 61F9713C1C15A58A008854BB /* tebleViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F9714F1C15A58A008854BB /* tebleViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F971671C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTestTests" */;
+			buildPhases = (
+				61F9714C1C15A58A008854BB /* Sources */,
+				61F9714D1C15A58A008854BB /* Frameworks */,
+				61F9714E1C15A58A008854BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F971521C15A58A008854BB /* PBXTargetDependency */,
+			);
+			name = tebleViewTestTests;
+			productName = tebleViewTestTests;
+			productReference = 61F971501C15A58A008854BB /* tebleViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61F9715A1C15A58A008854BB /* tebleViewTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F9716A1C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTestUITests" */;
+			buildPhases = (
+				61F971571C15A58A008854BB /* Sources */,
+				61F971581C15A58A008854BB /* Frameworks */,
+				61F971591C15A58A008854BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F9715D1C15A58A008854BB /* PBXTargetDependency */,
+			);
+			name = tebleViewTestUITests;
+			productName = tebleViewTestUITests;
+			productReference = 61F9715B1C15A58A008854BB /* tebleViewTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F971341C15A58A008854BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "yuki takei";
+				TargetAttributes = {
+					61F9713B1C15A58A008854BB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					61F9714F1C15A58A008854BB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 61F9713B1C15A58A008854BB;
+					};
+					61F9715A1C15A58A008854BB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 61F9713B1C15A58A008854BB;
+					};
+				};
+			};
+			buildConfigurationList = 61F971371C15A58A008854BB /* Build configuration list for PBXProject "tebleViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F971331C15A58A008854BB;
+			productRefGroup = 61F9713D1C15A58A008854BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F9713B1C15A58A008854BB /* tebleViewTest */,
+				61F9714F1C15A58A008854BB /* tebleViewTestTests */,
+				61F9715A1C15A58A008854BB /* tebleViewTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F9713A1C15A58A008854BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F9714A1C15A58A008854BB /* LaunchScreen.storyboard in Resources */,
+				61F971471C15A58A008854BB /* Assets.xcassets in Resources */,
+				61F971451C15A58A008854BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F9714E1C15A58A008854BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F971591C15A58A008854BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F971381C15A58A008854BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F971421C15A58A008854BB /* ViewController.swift in Sources */,
+				61F971401C15A58A008854BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F9714C1C15A58A008854BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F971551C15A58A008854BB /* tebleViewTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F971571C15A58A008854BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F971601C15A58A008854BB /* tebleViewTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F971521C15A58A008854BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F9713B1C15A58A008854BB /* tebleViewTest */;
+			targetProxy = 61F971511C15A58A008854BB /* PBXContainerItemProxy */;
+		};
+		61F9715D1C15A58A008854BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F9713B1C15A58A008854BB /* tebleViewTest */;
+			targetProxy = 61F9715C1C15A58A008854BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F971431C15A58A008854BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F971441C15A58A008854BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61F971481C15A58A008854BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F971491C15A58A008854BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F971621C15A58A008854BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61F971631C15A58A008854BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F971651C15A58A008854BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tebleViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61F971661C15A58A008854BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tebleViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61F971681C15A58A008854BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tebleViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tebleViewTest.app/tebleViewTest";
+			};
+			name = Debug;
+		};
+		61F971691C15A58A008854BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tebleViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tebleViewTest.app/tebleViewTest";
+			};
+			name = Release;
+		};
+		61F9716B1C15A58A008854BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tebleViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tebleViewTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		61F9716C1C15A58A008854BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tebleViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.tebleViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tebleViewTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F971371C15A58A008854BB /* Build configuration list for PBXProject "tebleViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F971621C15A58A008854BB /* Debug */,
+				61F971631C15A58A008854BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F971641C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F971651C15A58A008854BB /* Debug */,
+				61F971661C15A58A008854BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F971671C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F971681C15A58A008854BB /* Debug */,
+				61F971691C15A58A008854BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F9716A1C15A58A008854BB /* Build configuration list for PBXNativeTarget "tebleViewTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F9716B1C15A58A008854BB /* Debug */,
+				61F9716C1C15A58A008854BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F971341C15A58A008854BB /* Project object */;
+}
