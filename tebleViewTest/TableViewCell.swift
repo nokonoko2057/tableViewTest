@@ -11,7 +11,6 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     
-   // var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
     
     @IBOutlet var cellLabel:UILabel!
 
