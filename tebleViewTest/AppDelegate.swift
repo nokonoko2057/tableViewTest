@@ -18,6 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    
+//    var window: UIWindow?
+//   var myNavigationController: UINavigationController?
+//    
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+//        
+//        // ViewControllerを生成.
+//        let myViewController: ViewController = ViewController()
+//        
+//        // Navication Controllerを生成.
+//        myNavigationController = UINavigationController(rootViewController: myViewController)
+//        
+//        // UIWindowを生成.
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        
+//        // rootViewControllerにNatigationControllerを設定.
+//        self.window?.rootViewController = myNavigationController
+//        
+//        self.window?.makeKeyAndVisible()
+////
+//        return true
+//    }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
