@@ -44,7 +44,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyc-9g-70K">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyc-9g-70K">
                                                     <rect key="frame" x="8" y="0.0" width="81" height="45"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq7-bn-OmJ">
@@ -56,6 +56,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="cellImageView" destination="jyc-9g-70K" id="oj8-Gh-toL"/>
                                             <outlet property="cellLabel" destination="Pq7-bn-OmJ" id="IED-cB-RqS"/>
                                         </connections>
                                     </tableViewCell>
@@ -67,11 +68,45 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="myTableView" destination="NEa-Le-dp6" id="zBw-NE-3ze"/>
+                        <segue destination="Fo2-wf-2fB" kind="modal" identifier="toResultVC" id="2fK-T3-xil"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="332"/>
+            <point key="canvasLocation" x="147" y="348"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="qne-N5-OET">
+            <objects>
+                <viewController id="Fo2-wf-2fB" customClass="ResultViewController" customModule="tebleViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HUD-bQ-mOm"/>
+                        <viewControllerLayoutGuide type="bottom" id="ilr-ZG-N0D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B3Q-60-bpl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZV-Uv-E4i">
+                                <rect key="frame" x="73" y="68" width="175" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9v-aw-enP">
+                                <rect key="frame" x="42" y="159" width="237" height="194"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="rZV-Uv-E4i" id="m2S-XQ-RuV"/>
+                        <outlet property="mainImageView" destination="u9v-aw-enP" id="4dU-pq-x8z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BPZ-ka-CBm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="675" y="348"/>
         </scene>
     </scenes>
 </document>
